@@ -211,6 +211,8 @@
 #![doc(html_root_url = "https://docs.rs/zeroize/1.4.1")]
 #![warn(missing_docs, rust_2018_idioms, unused_qualifications)]
 
+#![feature(min_const_generics)]
+
 #[cfg(feature = "alloc")]
 #[cfg_attr(test, macro_use)]
 extern crate alloc;
